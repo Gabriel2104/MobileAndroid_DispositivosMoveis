@@ -18,6 +18,47 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="80dp"
             app:layout_constraintHorizontal_bias="0.498"/>
+    <ImageView
+            android:layout_width="210dp"
+            android:layout_height="159dp"
+            app:srcCompat="@drawable/etec"
+            android:id="@+id/etec"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titulo"
+            tools:layout_editor_absoluteY="135dp"
+            tools:layout_editor_absoluteX="33dp"/>
+    <TextView
+            android:text="ETEC de Itanhaém (2016-2018)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etec"
+    />
+    <ImageView
+            android:layout_width="275dp"
+            android:layout_height="133dp"
+            app:srcCompat="@drawable/fatec"
+            android:id="@+id/fatec"
+            android:layout_marginTop="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            tools:layout_editor_absoluteY="299dp"
+            tools:layout_editor_absoluteX="-11dp"/>
+    <TextView
+            android:text="FATEC Praia Grande (2019-2021)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fatec"
+            tools:layout_editor_absoluteY="438dp"
+            tools:layout_editor_absoluteX="55dp"/>
     <Button
             android:text="Voltar"
             android:layout_width="180dp"
@@ -25,9 +66,10 @@
             android:id="@+id/voltar"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/titulo"
+            app:layout_constraintTop_toBottomOf="@id/textView6"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
-            android:layout_marginBottom="200dp"/>
+            android:layout_marginBottom="100dp"
+            app:layout_constraintVertical_bias="0.962"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

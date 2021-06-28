@@ -18,6 +18,26 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="80dp"
             app:layout_constraintHorizontal_bias="0.498"/>
+    <ImageView
+            android:layout_width="230dp"
+            android:layout_height="222dp"
+            app:srcCompat="@drawable/programacao"
+            android:id="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titulo"
+            tools:layout_editor_absoluteY="105dp"
+            tools:layout_editor_absoluteX="90dp"/>
+    <TextView
+            android:text="Linguagens de programação: Python, PHP, Java, Kotlin, Javascript e C++"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            tools:layout_editor_absoluteY="275dp"
+            tools:layout_editor_absoluteX="110dp"/>
     <Button
             android:text="Voltar"
             android:layout_width="180dp"
@@ -25,7 +45,7 @@
             android:id="@+id/voltar"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/titulo"
+            app:layout_constraintTop_toBottomOf="@id/textView7"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             android:layout_marginBottom="200dp"/>
